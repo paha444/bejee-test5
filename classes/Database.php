@@ -2,7 +2,7 @@
 
 
 
-class Database
+trait Database
 { 
 
 

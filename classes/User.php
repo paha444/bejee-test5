@@ -6,7 +6,7 @@
 
 */
 
-class User extends Functions
+trait User
 { 
 
 

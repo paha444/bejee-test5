@@ -1,8 +1,10 @@
 <?php if (!defined('SITE')) exit('No direct script access allowed.');   // проверка на запуск файла с нашего сайта а не напрямую.
 
 
-class App extends User
+class App
 {
+    
+    use Database, Functions, User;
  
 public $db;    
 public $status_auth;    
